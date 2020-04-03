@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<form action="/Banking/Transfer" method="post">
+    <label id="fromAccount" for="fromAccount">From Account:</label>
+    <input type="text" name="fromAccount" />
+
+    <label id="toAccount" for="toAccount">To Account:</label>
+    <input type="text" name="toAccount" />
+
+    <label id="transferAmount" for="transferAmount">Amount:</label>
+    <input type="text" name="transferAmount" />
+
+    <input type="submit" name="submit" />
+</form>
